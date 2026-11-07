@@ -409,8 +409,7 @@ export const EVENTS_DATA: EventItem[] = [
     currency: '₹',
     totalSeats: 450,
     seatsLeft: 94,
-    image: '/src/assets/images/hero_event_crowd_1794062160931.jpg',
-    shortDescription:
+    image: `${import.meta.env.BASE_URL}assets/images/hero_event_crowd_1794062160931.jpg`,    shortDescription:
       'Learn clinical sleep hygiene, pranayama respiration techniques, and preventative health protocols with leading medical doctors and yoga scientists at KIMS.',
     fullDescription:
       'Step into an evidence-driven sanctuary of human health at the Kalinga Institute of Medical Sciences. Through structured lectures by senior clinicians, hands-on posture analysis, and certified breathwork instructors, this one-day expo provides scientific tools for lifelong vitality.',
@@ -543,7 +542,7 @@ export const EVENTS_DATA: EventItem[] = [
     currency: '₹',
     totalSeats: 1500,
     seatsLeft: 640,
-    image: '/src/assets/images/event_design_symposium_1794062164517.jpg',
+    image: `${import.meta.env.BASE_URL}assets/images/event_design_symposium_1794062164517.jpg`,
     shortDescription:
       'A 100% free open-source hackathon at KIIT Campus 15 & online Discord, building public good web accessibility, developer tools, and Indian language datasets.',
     fullDescription:
