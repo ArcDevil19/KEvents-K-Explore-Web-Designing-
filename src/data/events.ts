@@ -17,7 +17,7 @@ export const EVENTS_DATA: EventItem[] = [
     currency: '₹',
     totalSeats: 850,
     seatsLeft: 74,
-    image: '/src/assets/images/event_tech_summit_1794062162729.jpg',
+    image: `${import.meta.env.BASE_URL}assets/images/event_tech_summit_1794062162729.jpg`,
     shortDescription:
       'Join 800+ technologists, research scholars, and cloud architects at KIIT discussing AI inference, sustainable data centers, and digital public infrastructure.',
     fullDescription:
@@ -102,7 +102,7 @@ export const EVENTS_DATA: EventItem[] = [
     currency: '₹',
     totalSeats: 600,
     seatsLeft: 128,
-    image: '/src/assets/images/event_music_festival_1794062164097.jpg',
+    image: `${import.meta.env.BASE_URL}assets/images/event_music_festival_1794062164097.jpg`,
     shortDescription:
       'Immerse yourself in sunset melodies, warm fairy lights, artisan food stalls, and soulful acoustic performances under the open sky at KIIT Campus 7.',
     fullDescription:
@@ -259,7 +259,7 @@ export const EVENTS_DATA: EventItem[] = [
     currency: '₹',
     totalSeats: 500,
     seatsLeft: 52,
-    image: '/src/assets/images/event_startup_pitch_1794062164798.jpg',
+    image: `${import.meta.env.BASE_URL}assets/images/event_startup_pitch_1794062164798.jpg`,
     shortDescription:
       'Watch 24 vetted Eastern India startups pitch live to top angel groups and VC partners at KIIT-TBI, featuring 1-on-1 investor matchmaking pods.',
     fullDescription:
@@ -342,7 +342,7 @@ export const EVENTS_DATA: EventItem[] = [
     currency: '₹',
     totalSeats: 1200,
     seatsLeft: 210,
-    image: '/src/assets/images/hero_event_crowd_1794062160931.jpg',
+    image: `${import.meta.env.BASE_URL}assets/images/hero_event_crowd_1794062160931.jpg`,
     shortDescription:
       'Eastern India’s largest collegiate cultural festival featuring star musicians, student creator awards, dramatic showcases, and celebratory banquet.',
     fullDescription:
