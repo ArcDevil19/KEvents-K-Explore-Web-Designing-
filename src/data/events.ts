@@ -476,7 +476,7 @@ export const EVENTS_DATA: EventItem[] = [
     currency: '₹',
     totalSeats: 300,
     seatsLeft: 42,
-    image: '/src/assets/images/hero_event_crowd_1794062160931.jpg',
+    image: `${import.meta.env.BASE_URL}assets/images/hero_event_crowd_1794062160931.jpg`,
     shortDescription:
       'Train with national ultramarathoners, sports physiotherapists, and trail coaches near Chandaka Sanctuary trails and KIIT Stadium.',
     fullDescription:
