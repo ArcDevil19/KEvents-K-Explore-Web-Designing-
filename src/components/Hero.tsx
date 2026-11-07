@@ -105,7 +105,7 @@ export const Hero: React.FC<HeroProps> = ({
               {/* Image with overlay scrim */}
               <div className="relative h-56 sm:h-64 overflow-hidden">
                 <img
-                  src="/src/assets/images/hero_event_crowd_1794062160931.jpg"
+                  src={`${import.meta.env.BASE_URL}assets/images/hero_event_crowd_1794062160931.jpg`}
                   alt="K Events Flagship Event Auditorium"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   referrerPolicy="no-referrer"
