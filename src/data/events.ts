@@ -181,7 +181,7 @@ export const EVENTS_DATA: EventItem[] = [
     currency: '₹',
     totalSeats: 350,
     seatsLeft: 38,
-    image: '/src/assets/images/event_design_symposium_1794062164517.jpg',
+    image: `${import.meta.env.BASE_URL}assets/images/event_design_symposium_1794062164517.jpg`,
     shortDescription:
       'A hands-on symposium for architects, UI/UX designers, and industrial creators shaping spatial environments with sustainable bamboo and local craftsmanship.',
     fullDescription:
