@@ -1,0 +1,6 @@
+{
+  "name": "K Explore – Event Management Platform",
+  "description": "Explore upcoming events, conferences, concerts, and workshops with instant registration, live countdowns, search, category filters, and local pass management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
